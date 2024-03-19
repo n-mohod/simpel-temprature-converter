@@ -1,0 +1,81 @@
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/02/99/84/89/360_F_299848927_S0EwX0P6HWGigW6qZWFIBaczKMQuq5D9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    
+    
+}
+
+header{
+    display: block;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.852);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.box{
+    background-color: rgba(228, 249, 251, 0.772);
+    background: radial-gradient(circle, rgb(179, 192, 216) 0%, rgba(77, 159, 242, 0.725) 100%);
+    display: block;
+    border: 2px solid black;
+    border-radius: 8px;
+    max-width: 49%;
+    min-width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 50px 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    box-shadow: 5px 5px 8px 8px black;
+    
+}
+div{
+    display: inline-block;
+}
+
+.boxcontent{
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 8px 30px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#tempinput, #tempoutput{
+    width: 40%;
+    display: inline-block !important;
+    
+}
+#tempinput, #tempoutput{
+    position: relative;
+    left: 50px;
+}
+
+#convertbutton, #resetbutton{
+    margin-top: 60px;
+    width: 45%;
+    font-weight: 600;
+    cursor: pointer;
+    border: 3px solid black;
+    display: inline-block;
+
+}
+button:hover{
+    transition-duration: 0.7s;
+    background-color: rgb(175, 224, 249);
+    
+}
+.unitselector{
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+}
+
+
+

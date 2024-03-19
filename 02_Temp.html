@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" type="text/css" href="02_Temp.css">
+
+</head>
+
+
+
+<body>
+
+    <header class="header1">
+        <h2 class="main_heading" id="heading1">Temprature Converter</h2>
+    </header>
+
+
+    <div class="box">
+        <label for="temp" class="boxcontent">Enter Temprature: </label>
+        <input type="number" class="boxcontent" id="tempinput" value="">
+        <div class="unitselector">
+            <input type="radio" class="unitselector" id="radio1" name="inputtempunit" value="Celsius">
+            <label for="radio1" class="unitselector">&deg;C</label>
+            <input type="radio" class="unitselector" id="radio2" name="inputtempunit" value="Fahranheit">
+            <label for="radio2" class="unitselector">&deg;F</label>
+            <!--<input type="radio" class="unitselector" id="radio5" name="inputtempunit" value="Kelvin">
+            <label for="radio5" class="unitselector">&deg;K</label>-->
+        </div>
+
+        <label for="temp" class="boxcontent">Converted Temprature: </label>
+        <input type="number" class="boxcontent" id="tempoutput">
+        <div class="unitselector">
+            <input type="radio" class="unitselector" id="radio3" name="outputtempunit" value="Celsius">
+            <label for="radio3" class="unitselector">&deg;C</label>
+            <input type="radio" class="unitselector" id="radio4" name="outputtempunit" value="Fahranheit">
+            <label for="radio4" class="unitselector">&deg;F</label>
+            <!-- <input type="radio" class="unitselector" id="radio6" name="outputtempunit" value="Kelvin">
+            <label for="radio6" class="unitselector">&deg;K</label> -->
+        </div>
+
+
+       <div style="text-align: center; width: 100%;">
+        <button  type="submit" class="boxcontent" id="resetbutton" onclick="reset()">Reset</button>
+        <button  type="submit" class="boxcontent" id="convertbutton" onclick="convertor()">Convert</button>
+    </div>
+
+    </div>
+
+</body>
+
+
+<script src="02_Temp.js"></script>
+
+</html>
